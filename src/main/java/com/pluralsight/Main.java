@@ -14,7 +14,8 @@ public class Main {
         // I separated them so that it's just more
         // clear what I did for the two individual exercises
 
-
+        Exercise1.runShop();
+        Exercise2.runShop();
 
     }
 }

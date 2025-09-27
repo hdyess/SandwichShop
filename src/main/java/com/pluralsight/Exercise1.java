@@ -2,7 +2,7 @@ package com.pluralsight;
 import java.util.*;
 
 public class Exercise1 {
-    public static void main(String[] args){
+    public static void runShop(){
 
         // declare variables
         int sandSize;
@@ -38,7 +38,7 @@ public class Exercise1 {
 
         // calculate and tell user their finalPrice
         sandFinalPrice = sandBasePrice*(1-customerDiscount);
-        System.out.printf("\nYour total is $%.2f.", sandFinalPrice);
+        System.out.printf("\nYour total is $%.2f.\n", sandFinalPrice);
 
     }
 }
